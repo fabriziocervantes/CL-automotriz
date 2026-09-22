@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CL Automotriz — Seminuevos Nacionales en Hermosillo</title>
+<meta name="description" content="Autos seminuevos nacionales con financiamiento en Hermosillo, Sonora. Compra, venta y crédito. Escríbenos por WhatsApp al 662 260 2904.">
+<meta name="theme-color" content="#0B0B0B">
+<meta property="og:title" content="CL Automotriz — Seminuevos Nacionales">
+<meta property="og:description" content="Seminuevos nacionales con financiamiento en Hermosillo.">
+<meta property="og:image" content="assets/logo.jpeg">
+<link rel="icon" href="assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@1,500;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<div class="page">
+
+<header class="header">
+  <div class="header__inner">
+    <a href="#top" class="brand">
+      <img class="brand__logo" src="assets/logo.jpeg" alt="CL Automotriz" width="56" height="56">
+      <span class="brand__lockup">
+        <span class="brand__name">CL AUTOMOTRIZ</span>
+        <span class="brand__tag">SEMINUEVOS NACIONALES</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#inventario">Inventario</a>
+      <a href="#financiamiento">Financiamiento</a>
+      <a href="#vender">Vende tu auto</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+526622602904" class="header__phone"><span aria-hidden="true">✆</span> 662 260 2904</a>
+      <a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener" class="btn-red header__wa">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="top" class="hero">
+  <div class="hero__hex hex-pattern" aria-hidden="true"></div>
+  <div class="hero__streaks" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <div class="hero__copy">
+      <div class="rating-pill">
+        <span class="rating-pill__star">★</span>
+        <span>4.4 en Google · 14 opiniones</span>
+      </div>
+      <h1 class="hero__title">Tu próximo auto está en <span class="gold-text">CL Automotriz</span></h1>
+      <p class="hero__sub">Seminuevos nacionales con financiamiento en Hermosillo.</p>
+      <div class="btn-row">
+        <a href="#inventario" class="btn btn--hero-red">Ver inventario</a>
+        <a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener" class="btn btn--gold-outline">Cotizar por WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero__media">
+      <div class="hero__frame">
+        <!-- Para poner la foto del auto destacado, cambia el div por: <img src="assets/hero.jpg" alt="…" class="photo"> -->
+        <div class="photo-slot" role="img" aria-label="Foto del auto destacado del lote"><span>Foto del auto destacado del lote</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="checker" aria-hidden="true"></div>
+</section>
+
+<section class="brands" aria-label="Marcas">
+  <ul class="brands__list">
+    <li>Toyota</li><li>Nissan</li><li>Chevrolet</li><li>Ford</li><li>Honda</li>
+    <li>Mazda</li><li>Volkswagen</li><li>Renault</li><li>BMW</li><li>Mercedes-Benz</li>
+  </ul>
+</section>
+
+<section id="inventario" class="container section">
+  <div class="section-head">
+    <span class="eyebrow">INVENTARIO DESTACADO</span>
+    <h2 class="h2">Autos listos para entrega</h2>
+  </div>
+
+  <div class="filters" role="group" aria-label="Filtrar por tipo">
+    <button type="button" class="filter is-active" data-filtro="Todos" aria-pressed="true">Todos</button>
+    <button type="button" class="filter" data-filtro="Sedán" aria-pressed="false">Sedán</button>
+    <button type="button" class="filter" data-filtro="SUV" aria-pressed="false">SUV / Todoterreno</button>
+    <button type="button" class="filter" data-filtro="Pickup" aria-pressed="false">Pickup / Comercial</button>
+  </div>
+
+  <div class="cars" id="cars"></div>
+
+  <p class="cars__more">¿Buscas otro modelo? Escríbenos y te avisamos en cuanto entre al lote. <a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener" class="link-underline">Pedir un auto por WhatsApp</a></p>
+</section>
+
+<section class="band band--dark">
+  <div class="container section">
+    <h2 class="h2 h2--sm h2--spaced">Por qué elegirnos</h2>
+    <div class="features">
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">◆</span>
+        <h3 class="h3">Autos nacionales en regla</h3>
+        <p>Documentación completa y verificada. Nada de sorpresas al hacer el cambio de propietario.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">✦</span>
+        <h3 class="h3">Financiamiento a tu medida</h3>
+        <p>Planes de crédito con enganche accesible, pensados para trabajadores y familias.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">⬢</span>
+        <h3 class="h3">Compra y venta</h3>
+        <p>Aceptamos tu auto a cuenta o te lo compramos de contado el mismo día.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">★</span>
+        <h3 class="h3">Trato directo y confiable</h3>
+        <p>Hablas con el dueño del lote, sin intermediarios ni vueltas de más.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="financiamiento" class="finance">
+  <div class="container section finance__grid">
+    <div class="stack stack--16">
+      <span class="eyebrow">FINANCIAMIENTO</span>
+      <h2 class="h2 h2--tight">Llévatelo a pagos, sin vueltas de más</h2>
+      <p class="lead lead--light">Trabajamos con planes de crédito para trabajadores y familias de Hermosillo. Te decimos rápido para cuánto te alcanza.</p>
+      <div class="requirements">
+        <span class="requirements__title">Requisitos</span>
+        <p>INE, comprobante de domicilio, comprobante de ingresos y enganche. Si tienes un auto, lo aceptamos a cuenta.</p>
+      </div>
+      <a href="https://wa.me/5216622602904" data-wa="credito" target="_blank" rel="noopener" class="btn btn--credit">Solicita tu crédito</a>
+    </div>
+    <ol class="steps">
+      <li class="step">
+        <span class="step__n">1</span>
+        <div><h3 class="h3">Mándanos tus datos</h3><p>Por WhatsApp o llamada nos dices qué auto te interesa y de cuánto puedes dar de enganche.</p></div>
+      </li>
+      <li class="step">
+        <span class="step__n">2</span>
+        <div><h3 class="h3">Revisamos tu crédito</h3><p>Con INE, comprobante de domicilio e ingresos te damos respuesta rápida.</p></div>
+      </li>
+      <li class="step">
+        <span class="step__n">3</span>
+        <div><h3 class="h3">Firma y entrega</h3><p>Firmas, entregas el enganche y te llevas tu auto el mismo día.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="vender" class="container section">
+  <div class="sell">
+    <div class="stack stack--14">
+      <span class="eyebrow">VENDE TU AUTO</span>
+      <h2 class="h2 h2--tight">Compramos tu auto, pago directo</h2>
+      <p class="lead">Déjanos los datos y te damos una oferta. También lo tomamos a cuenta de otro auto del lote.</p>
+    </div>
+    <form class="sell-form" id="sell-form">
+      <input class="span-2" name="nombre" type="text" required placeholder="Nombre" aria-label="Nombre" autocomplete="name">
+      <input class="span-2" name="telefono" type="tel" required placeholder="Teléfono" aria-label="Teléfono" autocomplete="tel">
+      <input name="marca" type="text" required placeholder="Marca" aria-label="Marca">
+      <input name="modelo" type="text" required placeholder="Modelo" aria-label="Modelo">
+      <input name="anio" type="text" inputmode="numeric" required placeholder="Año" aria-label="Año">
+      <input name="km" type="text" inputmode="numeric" required placeholder="Kilometraje" aria-label="Kilometraje">
+      <button type="submit" class="span-2 btn-red sell-form__submit">Quiero vender mi auto</button>
+      <p class="span-2 sell-form__note">Al enviar se abre WhatsApp con tus datos listos para mandar.</p>
+    </form>
+  </div>
+</section>
+
+<section class="band band--dark band--top-only">
+  <div class="container section">
+    <div class="reviews-head">
+      <div class="stack stack--6">
+        <span class="eyebrow">OPINIONES</span>
+        <h2 class="h2 h2--sm">Lo que dicen los clientes</h2>
+      </div>
+      <div class="score">
+        <span class="score__num">4.4</span>
+        <span class="score__meta">
+          <span class="score__stars" aria-label="4.4 de 5 estrellas">★★★★☆</span>
+          <span>14 opiniones en Google</span>
+        </span>
+      </div>
+    </div>
+    <!-- Reemplazar con reseñas reales de Google -->
+    <div class="reviews">
+      <figure class="review">
+        <span class="review__stars" aria-hidden="true">★★★★★</span>
+        <blockquote>Espacio para reseña real de Google.</blockquote>
+        <figcaption>Cliente · Google</figcaption>
+      </figure>
+      <figure class="review">
+        <span class="review__stars" aria-hidden="true">★★★★★</span>
+        <blockquote>Espacio para reseña real de Google.</blockquote>
+        <figcaption>Cliente · Google</figcaption>
+      </figure>
+      <figure class="review">
+        <span class="review__stars" aria-hidden="true">★★★★★</span>
+        <blockquote>Espacio para reseña real de Google.</blockquote>
+        <figcaption>Cliente · Google</figcaption>
+      </figure>
+    </div>
+    <p class="reviews__more"><a href="https://www.google.com/search?q=CL+Automotriz+Seminuevos+Nacionales+Hermosillo" target="_blank" rel="noopener" class="link-underline">Ver más opiniones en Google →</a></p>
+  </div>
+</section>
+
+<section id="ubicacion" class="container section">
+  <div class="location">
+    <div class="stack stack--18">
+      <h2 class="h2 h2--sm">Visítanos en el lote</h2>
+      <div class="info">
+        <span class="info__label">DIRECCIÓN</span>
+        <p class="info__address">Paseo del Parque #63, esquina con C. Olivares,<br>Col. Valle Verde, C.P. 83200, Hermosillo, Son.</p>
+      </div>
+      <div class="info">
+        <span class="info__label">HORARIO</span>
+        <p class="info__hours">Lunes a viernes 9:00 a.m. – 7:00 p.m.<br>Sábado 9:00 a.m. – 3:00 p.m.<br>Domingo cerrado</p>
+      </div>
+      <div class="btn-row btn-row--sm">
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Paseo+del+Parque+63+Valle+Verde+Hermosillo+Sonora" target="_blank" rel="noopener" class="btn btn--sm btn--red">Cómo llegar</a>
+        <a href="tel:+526622602904" class="btn btn--sm btn--gold-outline btn--no-bg">Llamar ahora</a>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps?q=Paseo%20del%20Parque%2063%2C%20Valle%20Verde%2C%2083200%20Hermosillo%2C%20Sonora&amp;output=embed" title="Ubicación CL Automotriz" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="checker checker--top" aria-hidden="true"></div>
+  <div class="container final-cta__inner">
+    <h2 class="final-cta__title">Ven a conocer tu próximo auto hoy</h2>
+    <div class="btn-row">
+      <a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener" class="btn btn--lg btn--white">Escribir por WhatsApp</a>
+      <a href="tel:+526622602904" class="btn btn--lg btn--white-outline">Llamar 662 260 2904</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="stack stack--12">
+      <img class="footer__logo" src="assets/logo.jpeg" alt="CL Automotriz, Seminuevos Nacionales" width="88" height="88" loading="lazy">
+      <p class="footer__about">Compra, venta y financiamiento de autos seminuevos nacionales en Hermosillo, Sonora.</p>
+    </div>
+    <div class="footer__col">
+      <span class="footer__title">Contacto</span>
+      <a href="tel:+526622602904">662 260 2904</a>
+      <a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://facebook.com/clautomotrizseminuevos" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <div class="footer__col">
+      <span class="footer__title">Horario</span>
+      <span>Lun – Vie 9:00 – 19:00</span>
+      <span>Sábado 9:00 – 15:00</span>
+      <span>Domingo cerrado</span>
+    </div>
+    <div class="footer__col">
+      <span class="footer__title">Sucursal</span>
+      <span class="footer__addr">Paseo del Parque #63, Col. Valle Verde, Hermosillo, Son.</span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span>© 2026 CL Automotriz, Seminuevos Nacionales</span>
+      <a href="#">Aviso de privacidad</a>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5216622602904" data-wa="general" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp" class="wa-float">
+  <svg viewBox="0 0 24 24" width="30" height="30" fill="#0B0B0B" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.42-.72-2.9-1.15-4.71-4.14-4.85-4.33-.14-.19-1.13-1.52-1.13-2.9 0-1.38.72-2.06.97-2.35.24-.29.53-.36.72-.36.19 0 .39 0 .55.01.19.01.44-.07.68.53.24.6.82 2.03.89 2.18.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.45.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.65-.14.26.1 1.66.78 1.95.92.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"/></svg>
+</a>
+
+</div>
+</body>
+</html>
